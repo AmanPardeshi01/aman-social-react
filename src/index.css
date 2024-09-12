@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #212534;
+  color: rgb(88, 199, 250);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hideScrollBar::-webkit-scrollbar{
+  width: 0px;
+  display: none;
+  height: 0px
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
